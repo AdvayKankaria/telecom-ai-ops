@@ -1,0 +1,11 @@
+langgraph
+langchain-openai
+llama-index
+llama-index-embeddings-huggingface
+google-adk[a2a]
+crewai
+streamlit
+python-dotenv
+sentence-transformers
+uvicorn
+httpx

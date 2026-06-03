@@ -1,0 +1,34 @@
+description: "Prodapt AI Operations Center Evaluation"
+
+prompts:
+  - "{{query}}"
+
+providers:
+  - id: "python:eval_provider.py"
+
+tests:
+  - vars:
+      query: "What is Prodapt's roaming policy for Western Europe?"
+    assert:
+      - type: icontains
+        value: "roaming"
+  - vars:
+      query: "Which region had the most CRITICAL network outages recently?"
+    assert:
+      - type: icontains
+        value: "Midwest"
+  - vars:
+      query: "My 5G keeps dropping in Austin near tower TX-512. Please diagnose."
+    assert:
+      - type: icontains
+        value: "TX-512"
+  - vars:
+      query: "Customer CUST-10002 was charged twice for Unlimited Plus. Investigate and apply credit."
+    assert:
+      - type: icontains
+        value: "CUST-10002"
+  - vars:
+      query: "We had a 6-hour outage in the Midwest. Am I eligible for SLA credit and what does policy say?"
+    assert:
+      - type: icontains
+        value: "SLA"
