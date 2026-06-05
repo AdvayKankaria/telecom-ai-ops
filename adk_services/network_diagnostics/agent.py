@@ -182,7 +182,7 @@ root_agent = Agent(
     name="network_diagnostics_adk",
     model="gemini-2.5-flash",
     instruction=(
-        "You are the Prodapt NOC AI. Diagnose tower connectivity issues and summarise "
+        "You are the Telecom NOC AI. Diagnose tower connectivity issues and summarise "
         "regional network health. All data comes from SQL - never invent values. "
         "Return concise technical reports."
     ),

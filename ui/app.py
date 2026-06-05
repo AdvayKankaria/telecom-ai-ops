@@ -1,4 +1,4 @@
-"""Streamlit UI for Prodapt AI Operations Center."""
+"""Streamlit UI for Telecom AI Operations Center."""
 
 from __future__ import annotations
 
@@ -67,7 +67,7 @@ def _render_sidebar() -> None:
     st.sidebar.divider()
     st.sidebar.header("💡 Try these Scenarios")
     scenarios = [
-        "What is Prodapt's roaming policy for Western Europe?",
+        "What is Telecom's roaming policy for Western Europe?",
         "Which region had the most CRITICAL network outages recently?",
         "My 5G keeps dropping in Austin near tower TX-512. Please diagnose.",
         "Customer CUST-10002 was charged twice for Unlimited Plus. Investigate and apply credit.",
@@ -86,12 +86,12 @@ def _render_sidebar() -> None:
 def main() -> None:
     """Render Streamlit page and execute telecom assistant graph."""
     st.set_page_config(
-        page_title="Prodapt AI Operations Center", page_icon="🛰️", layout="wide"
+        page_title="Telecom AI Operations Center", page_icon="🛰️", layout="wide"
     )
 
     query_to_run = _render_sidebar()
     
-    st.title("🛰️ Prodapt AI Operations Center")
+    st.title("🛰️ Telecom AI Operations Center")
     st.caption("LlamaIndex + Google ADK + LangGraph + CrewAI")
 
     query = st.text_area(
@@ -99,7 +99,7 @@ def main() -> None:
         value=query_to_run if query_to_run else "",
         placeholder=(
             "Examples:\n"
-            "- What is Prodapt's roaming policy for Western Europe?\n"
+            "- What is Telecom's roaming policy for Western Europe?\n"
             "- Customer CUST-10002 was charged twice. Investigate and apply credit."
         ),
         height=160,

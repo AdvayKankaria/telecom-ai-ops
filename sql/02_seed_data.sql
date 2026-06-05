@@ -1,4 +1,4 @@
--- Prodapt Capstone - Seed Data
+-- Telecom Capstone - Seed Data
 -- Run after 01_schema.sql against SQLite (data/telecom_ops.db recommended).
 
 -- Clear existing data (order respects foreign keys)

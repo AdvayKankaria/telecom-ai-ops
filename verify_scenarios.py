@@ -13,7 +13,7 @@ from orchestration.graph import run_telecom_assistant
 scenarios = [
     {
         "name": "Scenario 1 — Policy / FAQ",
-        "query": "What is Prodapt's roaming policy for Western Europe?"
+        "query": "What is Telecom's roaming policy for Western Europe?"
     },
     {
         "name": "Scenario 2 — Network Analytics",

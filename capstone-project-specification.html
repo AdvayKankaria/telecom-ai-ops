@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Prodapt Capstone – Student Project Specification</title>
+  <title>Telecom Capstone – Student Project Specification</title>
   <style>
     :root {
       --primary: #1d4ed8;
@@ -204,7 +204,7 @@
 <body>
 <main>
 
-  <h1>Prodapt — Capstone Project Specification</h1>
+  <h1>Telecom — Capstone Project Specification</h1>
   <p class="subtitle">Multi-Framework Agentic AI · LangGraph · LlamaIndex · Google ADK · CrewAI · Streamlit</p>
 
   <div class="note">
@@ -234,9 +234,9 @@
 
   <h3>1.1 The Company</h3>
   <p>
-    <strong>Prodapt</strong> is a mid-size telecom provider offering mobile voice, 4G LTE, and 5G data
+    <strong>Telecom</strong> is a mid-size telecom provider offering mobile voice, 4G LTE, and 5G data
     services across the United States. It serves consumer, business, and enterprise customers. Like every telecom
-    operator, Prodapt receives thousands of inquiries daily about network problems, billing disputes, roaming,
+    operator, Telecom receives thousands of inquiries daily about network problems, billing disputes, roaming,
     device upgrades, and service-level agreements (SLAs).
   </p>
   <p>
@@ -446,7 +446,7 @@ flowchart TD
   <div class="success-box">
     <div class="box-title">Business value summary</div>
     <p class="small">
-      Prodapt's AI Operations Center does not replace humans entirely — it <strong>automates the coordination,
+      Telecom's AI Operations Center does not replace humans entirely — it <strong>automates the coordination,
       retrieval, and first-line resolution</strong> that today consumes most of an agent's time. Humans remain in
       the loop for approvals (e.g., credits over $50 per policy), escalations, and quality review — but the
       agentic system eliminates the friction of finding the right information in the right system at the right time.
@@ -454,7 +454,7 @@ flowchart TD
   </div>
 
   <h3>1.6 Real Inquiry Types You Must Support</h3>
-  <p>Your implementation must handle the same categories Prodapt staff see every day:</p>
+  <p>Your implementation must handle the same categories Telecom staff see every day:</p>
   <table>
     <thead><tr><th>Inquiry Category</th><th>Real-World Example</th><th>Primary Automation</th></tr></thead>
     <tbody>
@@ -472,7 +472,7 @@ flowchart TD
   <!-- 2 OVERVIEW -->
   <h2 id="overview">2. Project Overview</h2>
   <p>
-    Build <strong>Prodapt AI Operations Center</strong> — an intelligent assistant for a fictional
+    Build <strong>Telecom AI Operations Center</strong> — an intelligent assistant for a fictional
     telecom provider. Customers and staff submit inquiries through a <strong>Streamlit</strong> UI. A
     <strong>LangGraph supervisor</strong> routes each request to the correct specialist worker.
   </p>
@@ -764,7 +764,7 @@ flowchart TD
       <tr>
         <td><strong>Main content</strong></td>
         <td>
-          Page title (e.g. <em>Prodapt AI Operations Center</em>); brief caption naming the frameworks
+          Page title (e.g. <em>Telecom AI Operations Center</em>); brief caption naming the frameworks
           (LangGraph, LlamaIndex, Google ADK, CrewAI); customer inquiry text area; primary Submit button;
           final customer response; Agent Execution Trace panel (see 6.8.3)
         </td>
@@ -943,7 +943,7 @@ flowchart LR
   <h3>9.1 Scenario 1 — Policy / FAQ (LlamaIndex Document RAG)</h3>
   <div class="scenario-box">
     <div class="box-title">Sample query</div>
-    <div class="query-example">What is Prodapt's roaming policy for Western Europe?</div>
+    <div class="query-example">What is Telecom's roaming policy for Western Europe?</div>
     <div class="route-path">Supervisor → PolicyRAG → Supervisor → CustomerCommsCrew → FINISH</div>
   </div>
   <div class="diagram-section">

@@ -1,4 +1,4 @@
--- Prodapt Capstone - Database Schema
+-- Telecom Capstone - Database Schema
 -- Run against SQLite to create all operational tables.
 -- Students must use these tables for ALL agent tools — do NOT use in-memory dictionaries.
 

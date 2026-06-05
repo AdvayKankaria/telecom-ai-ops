@@ -1,8 +1,8 @@
-Prodapt - Billing Disputes and Adjustments Policy
+Telecom - Billing Disputes and Adjustments Policy
 
 1. DISPUTE WINDOW
 Customers must report billing errors within 90 days of the statement date.
-Disputes submitted after 90 days may be reviewed at Prodapt discretion but are
+Disputes submitted after 90 days may be reviewed at Telecom discretion but are
 not guaranteed adjustment.
 
 2. VALID DISPUTE CATEGORIES
@@ -42,4 +42,4 @@ Disputed amounts on hold do not accrue late fees.
 7. ESCALATION PATH
 Tier 1 Billing Support -> Billing Resolution Team -> Ombudsman (for amounts >$500)
 
-Contact Billing Resolution: 1-800-BILL-HELP or billing.disputes@prodapt.com
+Contact Billing Resolution: 1-800-BILL-HELP or billing.disputes@telecom.com

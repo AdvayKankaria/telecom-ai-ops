@@ -29,12 +29,12 @@ async def _call_remote_a2a(message: str, base_url: str, service_name: str) -> st
             sub_agents=[remote_agent],
         )
         runner = Runner(
-            app_name="prodapt_orchestrator",
+            app_name="telecom_orchestrator",
             agent=proxy_agent,
             session_service=InMemorySessionService(),
         )
         session = await runner.session_service.create_session(
-            app_name="prodapt_orchestrator",
+            app_name="telecom_orchestrator",
             user_id="langgraph",
             state={},
         )

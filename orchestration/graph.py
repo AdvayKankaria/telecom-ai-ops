@@ -47,7 +47,7 @@ def supervisor_node(state: AgentState) -> dict:
     structured = llm.with_structured_output(SupervisorDecision)
     already_called = [entry["worker"] for entry in state.get("execution_trace", [])]
     system_prompt = """
-You are the supervisor for the Prodapt AI Operations Center.
+You are the supervisor for the Telecom AI Operations Center.
 Available workers:
 - PolicyRAG: policy, roaming, SLA rules, 5G FAQ, upgrade eligibility
 - NetworkAnalytics: outage trends, packet loss stats, top-N analytics
@@ -200,7 +200,7 @@ def run_telecom_assistant(user_query: str) -> dict:
     system_prompt = (
         "You are an input filter for a telecom assistant. "
         "Your job is to determine if the user query is strictly related to "
-        "telecommunications, networking, mobile plans, outages, or Prodapt support. "
+        "telecommunications, networking, mobile plans, outages, or Telecom support. "
         "If it is related, output 'ALLOW'. If it is an off-topic general question "
         "(like 'what is the capital of France' or 'write a poem'), output 'REJECT'."
     )
@@ -211,7 +211,7 @@ def run_telecom_assistant(user_query: str) -> dict:
     
     if "REJECT" in res.content:
         return {
-            "final_response": "I can only answer questions related to Prodapt telecom operations, networking, and billing.",
+            "final_response": "I can only answer questions related to Telecom telecom operations, networking, and billing.",
             "execution_trace": [{"worker": "Guardrail", "output": "Query rejected as off-topic."}],
             "agent_context": "Query rejected as off-topic."
         }

@@ -1,4 +1,4 @@
-# Run Instructions for Prodapt AI Operations Center
+# Run Instructions for Telecom AI Operations Center
 
 Follow these commands to quickly start all necessary services for the Capstone Project.
 

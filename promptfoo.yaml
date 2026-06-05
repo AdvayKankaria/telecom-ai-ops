@@ -1,4 +1,4 @@
-description: "Prodapt AI Operations Center Evaluation"
+description: "Telecom AI Operations Center Evaluation"
 
 prompts:
   - "{{query}}"
@@ -8,7 +8,7 @@ providers:
 
 tests:
   - vars:
-      query: "What is Prodapt's roaming policy for Western Europe?"
+      query: "What is Telecom's roaming policy for Western Europe?"
     assert:
       - type: icontains
         value: "roaming"

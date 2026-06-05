@@ -1,4 +1,4 @@
-Prodapt - Network Outage Response Procedures
+Telecom - Network Outage Response Procedures
 Internal Reference Document (Customer-Facing Summary)
 
 INCIDENT CLASSIFICATION
@@ -12,7 +12,7 @@ INITIAL RESPONSE CHECKLIST
 2. Assign incident commander and open ticket in ServiceNow (INC prefix)
 3. Identify affected towers by region, technology (LTE/5G), and estimated customer count
 4. Notify regional field teams and activate backup power assessment for affected sites
-5. Post initial status to status.prodapt.com within 30 minutes of confirmed outage
+5. Post initial status to status.telecom.com within 30 minutes of confirmed outage
 
 COMMON ROOT CAUSES
 - Fiber backhaul cut (construction, vehicle accident): 35% of CRITICAL incidents
@@ -24,7 +24,7 @@ COMMON ROOT CAUSES
 CUSTOMER COMMUNICATION TEMPLATES
 CRITICAL outage: SMS blast to affected ZIP codes within 1 hour
 "We are aware of a service disruption in [REGION]. Our teams are working to restore
-service. Updates at status.prodapt.com/inc/[INC_ID]"
+service. Updates at status.telecom.com/inc/[INC_ID]"
 
 RESTORATION VERIFICATION
 Before closing incident:

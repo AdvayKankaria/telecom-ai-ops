@@ -1,9 +1,9 @@
-# Prodapt AI Operations Center 🛰️
+# Telecom AI Operations Center 🛰️
 
-![Prodapt Operations Center](https://img.shields.io/badge/Agentic-AI-blue.svg)
+![Telecom Operations Center](https://img.shields.io/badge/Agentic-AI-blue.svg)
 ![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-green.svg)
 
-Welcome to the **Prodapt AI Operations Center**! This project acts as an intelligent, multi-agent automated front door for Prodapt Telecom customer support and NOC teams. By integrating specialized frameworks into a single LangGraph-orchestrated workflow, the system can instantly resolve complex queries spanning policy documents, live operational databases, and billing systems.
+Welcome to the **Telecom AI Operations Center**! This project acts as an intelligent, multi-agent automated front door for Telecom Telecom customer support and NOC teams. By integrating specialized frameworks into a single LangGraph-orchestrated workflow, the system can instantly resolve complex queries spanning policy documents, live operational databases, and billing systems.
 
 ## ✨ Capabilities & Architecture
 
@@ -79,7 +79,7 @@ PYTHONPATH=. python -m streamlit run ui/app.py
 
 Once the Streamlit UI is running at `http://localhost:8501`, try pasting these real-world scenarios into the chat:
 
-1. **Policy Query:** `"What is Prodapt's roaming policy for Western Europe?"`
+1. **Policy Query:** `"What is Telecom's roaming policy for Western Europe?"`
 2. **Network Analytics:** `"Which region had the most CRITICAL network outages recently?"`
 3. **Diagnostics:** `"My 5G keeps dropping in Austin near tower TX-512. Please diagnose."`
 4. **Billing Action:** `"Customer CUST-10002 was charged twice for Unlimited Plus. Investigate and apply credit."`

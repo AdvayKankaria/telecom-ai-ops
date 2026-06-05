@@ -1,8 +1,8 @@
-Prodapt - International Roaming Policy
+Telecom - International Roaming Policy
 Last Updated: March 2026
 
 OVERVIEW
-Prodapt offers international roaming in 180+ countries through partner networks.
+Telecom offers international roaming in 180+ countries through partner networks.
 Roaming charges and data speeds vary by destination zone and your home plan tier.
 
 ROAMING ZONES
@@ -24,9 +24,9 @@ Zone D (Rest of World including remote islands):
 
 TRAVEL PASS ACTIVATION
 Enable Travel Pass before departure via:
-- Prodapt mobile app > Settings > International Roaming
+- Telecom mobile app > Settings > International Roaming
 - SMS "TRAVEL ON" to 611
-- Customer portal at my.prodapt.com
+- Customer portal at my.telecom.com
 
 Travel Pass activates on first network registration abroad and charges one daily fee
 per 24-hour period in the local time zone of the visited country.
@@ -36,12 +36,12 @@ All accounts have a default $100/month roaming spend cap. Customers may raise or
 this cap in the app. When 80% of the cap is reached, SMS and email alerts are sent.
 
 DEVICE COMPATIBILITY
-Your device must support the frequency bands used in your destination. Prodapt
-recommends checking band compatibility at prodapt.com/roaming-check before travel.
+Your device must support the frequency bands used in your destination. Telecom
+recommends checking band compatibility at telecom.com/roaming-check before travel.
 5G roaming is available in Zone A and B countries on select flagship devices only.
 
 BILLING DISPUTES FOR ROAMING
 Roaming charges appear on the bill cycle when usage occurred, not when you returned home.
 Dispute roaming charges within 60 days by providing travel dates and destination.
 
-Support: roaming@prodapt.com | While abroad dial +1-404-555-0199 (free from Prodapt SIM)
+Support: roaming@telecom.com | While abroad dial +1-404-555-0199 (free from Telecom SIM)
